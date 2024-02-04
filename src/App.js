@@ -18,7 +18,7 @@ function App() {
 
    useEffect(()=>{
       convert()
-   },[amount,from,to])
+   },[amount,from,to,convertedAmount])
 
   const swap = () => {
     setFrom(to)
